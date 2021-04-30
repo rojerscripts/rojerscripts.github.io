@@ -1,0 +1,26 @@
+body { 
+	margin: 0;
+	padding: 0;
+	background: #d8555b;
+}
+
+.circle {
+	position: adsolute;
+	top: 20%;
+	left: 50%;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	border: 10px solid rgba(255, 225, 255,.1);
+	border-top: 10px solid #fff;
+	animation: animate 2s infinite linear
+}
+
+@keyframes animate {
+  0% {
+	 transform: translate(-20%, 50%) rotate(0deg);
+}
+	100% {
+	transform: translate(-20%, 50%)rotate(360deg);
+  }
+}
