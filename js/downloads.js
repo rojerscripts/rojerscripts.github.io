@@ -1,13 +1,6 @@
 
 var innerContent = document.getElementsByClassName("ebaniy-obema")[0]
 
-let news = [
-    {
-        id: 1,
-        title: "В процессе",
-        desc: "Разработка...",
-    }
-]
 
 let repos = [
     {
