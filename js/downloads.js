@@ -1,5 +1,14 @@
 
 var innerContent = document.getElementsByClassName("ebaniy-obema")[0]
+
+let news = [
+    {
+        id: 1,
+        title: "В процессе",
+        desc: "Разработка...",
+    }
+]
+
 let repos = [
     {
         id: 1,
@@ -25,14 +34,6 @@ let repos = [
         desc: "SAMPFUNCS это дополнение к библиотеке CLEO 4, глобально расширяющее возможности скриптеров. ",
         url: "/scripts/sampfunks for arizona.ZIP",
     },
-]
-let news = [
-    {
-        id: 1,
-        title: "хуй",
-        desc: "хуй",
-        url: "хуй",
-    }
 ]
 
 if(innerContent) {
