@@ -5,7 +5,7 @@ let repos = [
         id: 1,
         title: "Сборка SAMP",
         desc: "Сборка самп, видео в котором всё подробно расписано <a href=\"https://vk.com/rojers228\" style=\"color: rgb(255, 0, 0); text-decoration: none; font-weight: bold;\">ссылка</a>",
-        url: "/scripts/online.rar",
+        url: "https://drive.google.com/u/0/uc?export=download&confirm=MF8r&id=1h1ZPukZVagAUprqIoD3LinEwm-8HSuJ7",
     },
     {
         id: 2,
