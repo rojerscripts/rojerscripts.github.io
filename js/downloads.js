@@ -4,7 +4,7 @@ let repos = [
     {
         id: 1,
         title: "Сборка SAMP",
-        desc: "Сборка самп, видео в котором всё подробно расписано <a href=\"https://www.youtube.com/watch?v=KsIUgQd3CsA&t\" style=\"color: rgb(255, 0, 0); text-decoration: none; font-weight: bold;\">ссылка</a>",
+        desc: "Сборка самп, видео в котором всё подробно расписано <a href=\"fsdfsfsfdsfsfsfdsf\" style=\"color: rgb(255, 0, 0); text-decoration: none; font-weight: bold;\">ссылка</a>",
         url: "https://drive.google.com/u/0/uc?export=download&confirm=MF8r&id=1h1ZPukZVagAUprqIoD3LinEwm-8HSuJ7",
     },
     {
