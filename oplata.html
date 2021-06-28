@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html id="fon" style="background: #313742; font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;">
+	<head>
+		<meta charset="utf-8">
+		<title>Oplata</title>
+		<link rel="icon" href="img/icon.gif">
+	</head>
+	<body style="margin: 0">
+		<style>
+			.cont {
+				width: 650px;
+				margin: 0 auto;
+			}
+			.nforma {
+				border: 0px solid red;
+			}
+			.clearfix:after {
+				margin: 0;
+				padding: 0;
+				content: '';
+				display: table;
+				width: 100%;
+				clear: both;
+			}
+			.vhod {
+				padding-top: 40px;
+				margin: 0 0 3px 0;
+				font-size: 2.5rem;
+				font-weight: 333;
+				margin-right: auto;
+				min-width: 0;
+				color: #e0e6f0;
+				font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+			}
+			.forma {
+				color: #e0e6f0;
+				background: #313742;
+				border-width: 0;
+				border-style: solid;
+				border-top-color: #4d5460;
+				border-right-color: #4d5460;
+				border-bottom-color: #4d5460;
+				border-left-color: #4d5460;
+				border-radius: 8px;
+				box-shadow: 0 4px 15px 0 rgba(0,0,0,0.2);
+			}
+			.im1 {
+				float: left;
+				border-right: 1px solid transparent;
+				background: #373c44;
+				border-color: #4d5460;
+				text-align: right;
+				width: 195px;
+				padding: 16px 16px 16px 16px;
+				border-radius: 8px 0 0 0; 
+			}
+			.im2 {
+				float: left;
+				border-right: 1px solid transparent;
+				background: #373c44;
+				border-color: #4d5460;
+				text-align: right;
+				width: 195px;
+				padding: 16px 16px 20px 16px;
+				border-radius: 0px 0 0 0; 
+			}
+			.select {
+				outline: none;
+				margin-top: 17px;
+				margin-right: 4%;
+				float: right;
+				font-size: 1.0rem;
+				color: #e0e6f0;
+				background: #373c44;
+				border-width: 1px;
+				border-style: solid;
+				border-top-color: #4d5460;
+				border-right-color: #4d5460;
+				border-bottom-color: #4d5460;
+				border-left-color: #4d5460;
+				border-radius: 8px;
+				padding: 2px;
+				box-shadow: inset 0 1px 4px rgba(0,0,0,0.1);
+				display: block;
+				width: 55%;
+				line-height: 1.4;
+				text-align: left;
+			}
+			.knopka {
+				padding-left: 40%;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				border-radius: 0px 0px 8px 8px;
+				position: relative;
+				background: #373c44;
+				border-top: 1px solid transparent;
+				border-color: #4d5460;
+			}
+			.button {
+				outline: none;
+				border: 0;
+				font-weight: bold;
+				background: #4080FF;
+				border-radius: 6px 0 6px 0;
+				letter-spacing: 1px;
+				display: inline-block;
+				color: #fff;
+				text-transform: uppercase;
+				padding: 8px 15px;
+				text-align: center;
+				cursor: pointer;
+			}
+			.text {
+				outline: none;
+				margin-top: 17px;
+				margin-left: 6%;
+				float: left;
+				font-size: 1.1rem;
+			}
+			.zagruzka {
+				width: 100%;
+				height: 100%;
+				background: #000;
+				opacity: 35%;
+				position: fixed;
+				display: block;
+				z-index: 99999;
+				left: 0%;
+				top: 0%
+			}
+			.ztext {
+				right: 3%;
+				bottom: 3%;
+				position: fixed;
+				display: block;
+				z-index: 100000;
+				font-size: 3.0rem;
+				font-weight: 400;
+				color: #cecece;
+				opacity: 75%;
+				font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+			}
+			.silka {
+				float: left;
+				color: #ababab;
+				text-decoration-line: none;
+			}
+			.silka:hover {
+				position: absolute;
+				color: #ababab;
+				padding-bottom: 2px;
+				border-bottom: 2.2px solid #ff4a4a;
+			}
+			.od {
+				padding-top: 170px;
+				text-align: center;
+				font-size: 2.5rem;
+				font-weight: 500;
+				color: #e0e6f0;
+				font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+			}
+			.text2 {
+				float: left;
+				font-size: 1.0rem;
+				padding-left: 26%;
+				margin-right: 1%;
+				color: #cecece;
+				font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+			}
+		</style>
+		
+		<script src="jquery.js"></script>
+		
+								<div id="osnova" class="cont" style="padding-top: 55px;">
+									<div class="vhod">
+										Оплата
+									</div>
+									<div class="forma">
+										<form method="POST">
+											<div class="nforma clearfix">
+												<div class="im1">
+													Привязка:
+												</div>
+												<div class="text">
+													Артём Епифанцев
+												</div>
+											</div>
+											<div class="nforma clearfix">
+												<div class="im2">
+													Количество дней:
+												</div>
+												<select class="select" name="day"><option value="0">15 дней = 300р</option><option value="1">30 дней = 500р</option></select>
+											</div>
+											<div class="nforma clearfix">
+												<div class="im2" style="padding-bottom: 40px;">
+													ID пригласившего:
+												</div>
+												<input class="select" type="text" name="drug" style="position: relative; z-index: 1;">
+												<div style="position: relative; font-size: 0.8rem; top: 7px; left: 125px; z-index: 0;">
+													Узнать ID можно тут: 
+														<a target="_blank" href="https://regvk.com/id/" style="color: #ababab; text-decoration-line: none;">
+															Click*
+														</a>
+												</div>
+											</div>
+											<div class="knopka">
+												<button onclick="go()" class="button" type="button">Подтвердить</button>
+											</div>
+										</form>
+									</div>
+								</div>
+								<div style="padding-top: 55px;"></div>
+								<div id="result1"></div>
+								<script>
+									load = 0;
+									function go()
+									{
+										if (load == 0)
+										{
+											var data = $("form").serialize() + "&id=" + 571020688;
+											$.ajax({
+												type: "POST",
+												url: "go.php",
+												data: data,
+												success: function(result){
+													$("#result1").html(result);
+												}
+											});
+											setTimeout(function () { zagruzka(); }, 0);
+											load = 1;
+										};
+									};
+								</script>
+									
+		<script>
+			setInterval(function()
+			{
+				if (document.getElementById("zagruzilsa"))
+				{
+					load = 0;
+					document.getElementById("zagruzilsa").parentNode.removeChild(document.getElementById("zagruzilsa"));
+					
+					if (document.getElementById("sho"))
+					{
+						document.getElementById("sho").parentNode.removeChild(document.getElementById("sho"));
+					}
+				}
+			}, 50);
+			function zagruzka()
+			{
+				if (document.getElementById("zagruzilsa"))
+				{
+					document.getElementById("zagruzilsa").parentNode.removeChild(document.getElementById("zagruzilsa"));
+				};
+				var sho = document.createElement("div");
+				sho.innerHTML = "<div class='zagruzka'></div><a class='ztext'>Loading...</a>";
+				sho.id = "sho";
+				document.body.appendChild(sho);
+				setTimeout(function ()
+				{
+					if (document.getElementById("sho"))
+					{
+						document.getElementById("sho").parentNode.removeChild(document.getElementById("sho"));
+					}
+				}, 10000);
+			};
+		</script>
+	</body>
+</html>
