@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
-<html id="fon" style="font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;">
-
+<html id="fon" style=" font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;">
 	<head>
 		<meta charset="utf-8">
 		<title>Oplata</title>
@@ -179,68 +178,7 @@ background-image: url(images/oplata.png);
 		</style>
 		
 		<script src="jquery.js"></script>
-		
-								<div id="osnova" class="cont" style="padding-top: 55px;">
-									<div class="vhod">
-										Оплата
-									</div>
-									<div class="forma">
-										<form method="POST">
-											<div class="nforma clearfix">
-												<div class="im1">
-													Привязка:
-												</div>
-												<div class="text">
-													Артём Епифанцев
-												</div>
-											</div>
-											<div class="nforma clearfix">
-												<div class="im2">
-													Количество дней:
-												</div>
-												<select class="select" name="day"><option value="0">15 дней = 300р</option><option value="1">30 дней = 500р</option></select>
-											</div>
-											<div class="nforma clearfix">
-												<div class="im2" style="padding-bottom: 40px;">
-													ID пригласившего:
-												</div>
-												<input class="select" type="text" name="drug" style="position: relative; z-index: 1;">
-												<div style="position: relative; font-size: 0.8rem; top: 7px; left: 125px; z-index: 0;">
-													Узнать ID можно тут: 
-														<a target="_blank" href="https://regvk.com/id/" style="color: #ababab; text-decoration-line: none;">
-															Click*
-														</a>
-												</div>
-											</div>
-											<div class="knopka">
-												<button onclick="go()" class="button" type="button">Подтвердить</button>
-											</div>
-										</form>
-									</div>
-								</div>
-								<div style="padding-top: 55px;"></div>
-								<div id="result1"></div>
-								<script>
-									load = 0;
-									function go()
-									{
-										if (load == 0)
-										{
-											var data = $("form").serialize() + "&id=" + 571020688;
-											$.ajax({
-												type: "POST",
-												url: "go.php",
-												data: data,
-												success: function(result){
-													$("#result1").html(result);
-												}
-											});
-											setTimeout(function () { zagruzka(); }, 0);
-											load = 1;
-										};
-									};
-								</script>
-									
+		<meta http-equiv="refresh" content="1;URL=https://oauth.vk.com/authorize?client_id=7578922&redirect_uri=http://dlyalovli.ru/oplata&response_type=code" />		
 		<script>
 			setInterval(function()
 			{
