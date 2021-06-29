@@ -5,7 +5,7 @@ let repos = [
         id: 1,
         title: "ARZ Helper Lovli",
         desc: "В ожидании...",
-        url: "https://rojerscripts.github.io",
+        url: "",
     },
     {
         id: 2,
